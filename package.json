@@ -12,7 +12,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "machine": "^3.0.0"
   },
   "devDependencies": {
@@ -21,6 +21,9 @@
   "machinepack": {
     "friendlyName": "Headers",
     "machineDir": "machines/",
-    "machines": []
+    "machines": [
+      "get-request-header",
+      "set-response-header"
+    ]
   }
 }
