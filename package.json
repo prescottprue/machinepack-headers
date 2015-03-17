@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-headers",
+  "version": "0.1.0",
+  "description": "Work with HTTP /vHTTP request and response headers.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Headers",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^3.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "Headers",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
